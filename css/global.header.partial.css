@@ -1,0 +1,21 @@
+.global__header-text-text {
+  color: rgb(15, 93, 11);
+}
+
+.global__header-list-link {
+  color: rgb(214, 252, 255);
+}
+
+.global__header-menu-list {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+.global__header-main {
+  display: flex;
+}
+
+body {
+  background-color: #31549e;
+}
