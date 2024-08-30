@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --global-header-background: #051829;
+  --global-header-text: #ffffff;
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
