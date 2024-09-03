@@ -11,6 +11,8 @@
 :root {
   --global-header-background: #051829;
   --global-header-text: #ffffff;
+  --global-button-background: hsl(191.64deg 89.33% 14.71%);
+  --global-button-border: hsl(15deg 76.47% 86.67%);
 
   --global-page-max-size: 3000px;
   --global-page-mix-size: 350px;

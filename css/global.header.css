@@ -42,6 +42,7 @@
 
 .header__menu {
   .menu-item {
+    transition: 0.2s;
     .item-link {
       font-family: var(--global-text-title);
       font-weight: 400;
@@ -49,6 +50,7 @@
       font-size: 20px;
       text-decoration: none;
       color: var(--global-header-text);
+      padding: 5px;
     }
   }
 }
@@ -65,5 +67,13 @@
 
   .header__menu {
     flex-direction: row;
+  }
+}
+
+.header__menu {
+  .menu-item:hover {
+    border: 3px solid var(--global-button-border);
+    border-radius: 25px;
+    background-color: var(--global-button-background);
   }
 }
