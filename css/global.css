@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
 *,
 *::after,
@@ -11,6 +11,13 @@
 :root {
   --global-header-background: #051829;
   --global-header-text: #ffffff;
+
+  --global-page-max-size: 3000px;
+  --global-page-mix-size: 350px;
+
+  --global-content-max-size: 1600px;
+
+  --global-text-title: "Indie Flower", cursive;
   scroll-behavior: smooth;
 }
 
