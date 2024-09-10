@@ -1,0 +1,176 @@
+.members {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: var(--global-page-mix-size);
+}
+
+.members__background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: var(--global-page-max-size);
+  background-image: url("../img/textures/wood-light.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.members__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: var(--global-content-max-size);
+  background-color: var(--global-box-smooth);
+}
+
+.members__title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 15px;
+  background-color: #0f0f10;
+}
+
+.members__title {
+  .title-text {
+    font-family: var(--global-text-text);
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    color: var(--global-header-text);
+  }
+}
+
+.members__content {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 50px 0px 45px 0px;
+}
+
+.members__content {
+  .content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+.members__content {
+  .content-item {
+    .item-image {
+      object-fit: cover;
+    }
+  }
+}
+.members__content {
+  .content-item {
+    .item-description {
+      .description-text {
+        .text-text {
+          font-family: var(--global-text-text);
+          font-weight: 400;
+          font-style: normal;
+          text-align: left;
+          font-size: 18px;
+          margin-top: 10px;
+          color: var(--global-header-text);
+        }
+      }
+    }
+  }
+}
+.members__content {
+  .content-item {
+    .item-description {
+      .description-title {
+        .title-title {
+          font-family: var(--global-text-text);
+          font-weight: 400;
+          font-style: normal;
+          text-align: left;
+          font-size: 25px;
+          color: var(--global-header-text);
+        }
+      }
+    }
+  }
+}
+.members__content {
+  .content-item {
+    .item-description {
+      .description-button {
+        .button-button {
+          width: 30%;
+          font-family: var(--global-text-title);
+          font-weight: 400;
+          font-style: normal;
+          font-size: 20px;
+          text-decoration: none;
+          color: var(--global-header-text);
+          padding: 2px;
+          margin-top: 10px;
+          border: 3px solid var(--global-button-border);
+          border-radius: 25px;
+          background-color: var(--global-button-background);
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 500px) {
+  .members__content {
+    .content-item {
+      flex-direction: row;
+    }
+  }
+  .members__content {
+    .content-item {
+      .item-image {
+        width: 40%;
+      }
+      .item-description {
+        width: 60%;
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .members__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 100%;
+    padding: 50px 140px 45px 140px;
+  }
+  .members__content {
+    .content-item {
+      max-width: 600px;
+      .item-image {
+        width: 30%;
+      }
+      .item-description {
+        width: 70%;
+      }
+    }
+  }
+}
+
+.members__content {
+  .content-item {
+    .item-description {
+      .description-button {
+        .button-button:hover {
+          color: var(--global-button-background);
+          border: 3px solid var(--global-button-border);
+          background-color: var(--global-header-text);
+        }
+      }
+    }
+  }
+}
