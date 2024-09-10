@@ -11,7 +11,7 @@
   align-items: center;
   width: 100%;
   max-width: var(--global-page-max-size);
-  background-image: url("../img/textures/wood-light.jpeg");
+  background-image: url("../img/textures/brick-gray.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -64,6 +64,16 @@
   .content-item {
     .item-image {
       object-fit: cover;
+    }
+  }
+}
+.members__content {
+  .content-item {
+    .item-description {
+      padding: 15px;
+      background-color: rgb(240, 177, 101);
+      border: 3px solid rgb(104, 50, 5);
+      border-radius: 20px;
     }
   }
 }
